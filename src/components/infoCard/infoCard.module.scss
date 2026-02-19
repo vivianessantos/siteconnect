@@ -6,6 +6,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.18s ease;
+    
 
     h2{
         font-family: "Source Sans 3", sans-serif;
@@ -15,23 +17,35 @@
 }
 
 p{
-    font-family: "Inter" sans-serif;
-    font-weight: 400;
-    color:#122F97 ;
+    font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #122F97;
+  text-align: center;
+  max-width: 280px;
+  line-height: 1.5;
 }
 button {
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: #122F97;
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #122F97;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+button:hover {
+  background-color: #00aaff;
+}
+
+}
+
+.article:hover {
+  transform: translateY(-4px);
 }
 
 .article img {
@@ -44,14 +58,61 @@ button {
     min-width: 0;
 }
 
-/* @media(max-wisth: 768px){
-    .article{
-        h2{
-            font-size:25px
 
-        }
-        button{
 
-        }
+@media (max-width: 768px) {
+  .article {
+    height: auto;
+    padding: 16px;
+
+    h2 {
+      font-size: 25px;
+      text-align: center;
     }
-} */
+
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      font-size: 18px;
+      height: 45px;
+    }
+  }
+} 
+@media (max-width: 300px) {
+  .article h2 {
+    font-size: 16px;
+  }
+
+  .article p {
+    font-size: 12px;
+    max-width: 22ch;
+  }
+
+  .article button {
+    font-size: 14px;
+    height: 36px;
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 256px) {
+  .article h2 {
+    font-size: 14px;
+  }
+
+  .article p {
+    font-size: 11px;
+    max-width: 18ch;
+    line-height: 1.25;
+  }
+
+  .article button {
+    font-size: 12px;
+    height: 32px;
+    max-width: 140px;
+  }
+}

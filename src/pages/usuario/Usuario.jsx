@@ -9,7 +9,7 @@ const Usuario = () => {
       <section>
         <div>
           <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQFOGyZhBrvFVA/profile-displayphoto-shrink_200_200/B4DZb1yjKPHEAY-/0/1747880391777?e=1771459200&v=beta&t=GCNM_4NFa2aoXwiTfIj07ADebG_8Hiaj5d4cLiXDP0E"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQFOGyZhBrvFVA/profile-displayphoto-shrink_400_400/B4DZb1yjKPHEAg-/0/1747880391777?e=1773273600&v=beta&t=VKgSuLyAzHBPS-VSwFE3cbgnKxC1YMZJx0pA8tppGiU"
             alt="Imagem do perfil do usuário"
           />
         </div>

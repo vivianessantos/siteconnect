@@ -15,7 +15,7 @@ const Voluntariado = () => {
           <InfoCard
           img= {reciclagem}
           alt= "Imagem de uma pessoa carregando uma caixa com varios alimentos para doação"
-          subtitulo= "Instituto grande familia"
+          subtitulo= "Instituto Grande Familia"
           paragrafo= "Contribua com alimentos não perecíveis e ajude famílias em situação de vulnerabilidade."
           textoBotao= "Quero Doar"
           />

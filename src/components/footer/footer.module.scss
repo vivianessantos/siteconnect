@@ -5,3 +5,50 @@
     font-weight: 400;
     background-color: #E9EFF4;
 }
+
+.footer p {
+  margin: 0;
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+@media (max-width: 550px) {
+  .footer {
+    padding: 18px 12px;
+  }
+
+  .footer p {
+    font-size: 12px;
+    line-height: 1.35;
+  }
+}
+
+/* <= 300px */
+@media (max-width: 300px) {
+  .footer {
+    padding: 12px 8px;
+  }
+
+  .footer p {
+    font-size: 10px;
+    line-height: 1.25;
+    max-width: 26ch;
+  }
+}
+
+/* <= 200px (ultra pequeno / smartwatch) */
+@media (max-width: 200px) {
+  .footer {
+    padding: 10px 6px;
+  }
+
+  .footer p {
+    font-size: 9px;
+    line-height: 1.2;
+    max-width: 18ch;
+  }
+}

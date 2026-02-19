@@ -9,7 +9,7 @@ import Acompanhamento from "../../assets/imagens/acompanhamento.png"
 const EventosEP = () => {
   return (
     <main className={S.main}>
-      <h1>Mentoria</h1>
+      <h1>Eventos</h1>
       <section>
         <article>
           <InfoCard
