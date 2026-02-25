@@ -1,7 +1,7 @@
 
 
 import S from "../Style.module.scss"
-import InfoCard from "../../components/InfoCard/infoCard"
+import InfoCard from "../../components/infoCard/InfoCard"
 import imgMentoria from "../../assets/imagens/mentoria.png"
 import Experiencia from "../../assets/imagens/experiencia.png"
 import Acompanhamento from "../../assets/imagens/acompanhamento.png" 

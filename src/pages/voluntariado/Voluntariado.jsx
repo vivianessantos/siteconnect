@@ -1,6 +1,6 @@
 
 import S from "../Style.module.scss"
-import InfoCard from "../../components/InfoCard/infoCard"
+import InfoCard from "../../components/infoCard/InfoCard"
 import pfEscola from "../../assets/imagens/pfEscola.png"
 import  reciclagem from "../../assets/imagens/reciclagem.png"
 import  inclusao from "../../assets/imagens/inclusao.png"

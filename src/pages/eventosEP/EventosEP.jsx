@@ -1,7 +1,7 @@
 
 
 import S from "../Style.module.scss"
-import InfoCard from "../../components/InfoCard/infoCard"
+import InfoCard from "../../components/infoCard/InfoCard"
 import jovensFuturo from "../../assets/imagens/jovensFuturo.png"
 import tecTransforma from "../../assets/imagens/tecTransforma.png"
 import Acompanhamento from "../../assets/imagens/acompanhamento.png" 
