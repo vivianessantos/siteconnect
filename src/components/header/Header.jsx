@@ -53,26 +53,44 @@ const Header = () => {
         />
       </header>
       <nav className={menuAberto ? s.navUser : s.closedNavUser}>
-        <Link to={"/usuario"}  onClick={() => setMenuAberto(false)}>Viviane Santos</Link>
-        <Link  onClick={() => setMenuAberto(false)}>Meu voluntariado</Link>
-        <Link  onClick={() => setMenuAberto(false)}>Configurações da conta</Link>
+        <Link to={"/usuario"} onClick={() => setMenuAberto(false)}>
+          Viviane Santos
+        </Link>
+        <Link onClick={() => setMenuAberto(false)}>Meu voluntariado</Link>
+        <Link onClick={() => setMenuAberto(false)}>Configurações da conta</Link>
         {isMobile && (
           <div>
-            <Link className={s.Link} to={"/doacao"}  onClick={() => setMenuAberto(false)}>
+            <Link
+              className={s.Link}
+              to={"/doacao"}
+              onClick={() => setMenuAberto(false)}
+            >
               Doação
             </Link>
-            <Link className={s.Link} to={"/voluntariado"}  onClick={() => setMenuAberto(false)}>
+            <Link
+              className={s.Link}
+              to={"/voluntariado"}
+              onClick={() => setMenuAberto(false)}
+            >
               Voluntariado
             </Link>
-            <Link className={s.Link} to={"/mentoria"}  onClick={() => setMenuAberto(false)}>
+            <Link
+              className={s.Link}
+              to={"/mentoria"}
+              onClick={() => setMenuAberto(false)}
+            >
               Mentoria
             </Link>
-            <Link className={s.Link} to={"/eventosEP"}  onClick={() => setMenuAberto(false)}>
+            <Link
+              className={s.Link}
+              to={"/eventosEP"}
+              onClick={() => setMenuAberto(false)}
+            >
               Eventos
             </Link>
           </div>
         )}
-        <Link  onClick={() => setMenuAberto(false)}>Sair</Link>
+        <Link onClick={() => setMenuAberto(false)}>Sair</Link>
       </nav>
     </>
   );

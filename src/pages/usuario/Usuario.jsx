@@ -19,7 +19,8 @@ const Usuario = () => {
           <h2 className={s.status}>Voluntário Ativo</h2>
 
           <p>
-            Tenho vontade de contribuir para um mundo mais justo e colaborativo. Acredito que o voluntariado é uma forma de aprender, compartilhar experiências e ajudar pessoas a alcançarem novas oportunidades.
+            Acredito que o voluntariado é uma forma de aprender, compartilhar
+            experiências e ajudar pessoas a alcançarem novas oportunidades.
           </p>
 
           <ul className={s.infoList}>

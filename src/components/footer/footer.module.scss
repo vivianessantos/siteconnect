@@ -1,9 +1,9 @@
 .footer {
-    padding: 30px 20px;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    background-color: #E9EFF4;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: #E9EFF4;
 }
 
 .footer p {
@@ -40,7 +40,6 @@
   }
 }
 
-/* <= 200px (ultra pequeno / smartwatch) */
 @media (max-width: 200px) {
   .footer {
     padding: 10px 6px;
